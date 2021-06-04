@@ -94,15 +94,12 @@
                         ]; 
 
                         //var_dump($people); die;
-                        $pdo = new PDO("mysql:host=localhost; dbname=task_7", "root", "");
+                        $pdo = new PDO("mysql:host = localhost; dbname = task_7", "root", "*Wtkbyjuhfl987");
                         $sql = "SELECT * FROM people";
                         $statement = $pdo->prepare($sql);
                         $statement->execute();
                         var_dump($statement->fetchAll(PDO::FETCH_ASSOC)); die;
-                        //$people = $statement->fetchAll(PDO::FETCH_ASSOC);
- 
-                      
-
+                        // $people = $statement->fetchAll(PDO::FETCH_ASSOC);
                     ?>
 
                     <div class="panel-container show">
