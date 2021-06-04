@@ -98,8 +98,8 @@
                         $sql = "SELECT * FROM people";
                         $statement = $pdo->prepare($sql);
                         $statement->execute();
-                        var_dump($statement->fetchAll(PDO::FETCH_ASSOC)); die;
-                        //$people = $statement->fetchAll(PDO::FETCH_ASSOC);
+                        //var_dump($statement->fetchAll(PDO::FETCH_ASSOC)); die;
+                        $people = $statement->fetchAll(PDO::FETCH_ASSOC);
  
                       
 
