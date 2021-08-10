@@ -16,7 +16,7 @@
   if (!empty($task)) {
     $message = "Введенная запись уже присутствует в таблице.";
     $_SESSION['danger'] = $message;
-    header("Location: /tasks/task_10.php");
+    header("Location: /php_tasks10/task_10.php");
     exit;
   }
   
@@ -28,7 +28,7 @@
   $_SESSION['success'] = $message;
     
  
-  header("Location: /tasks/task_10.php");
+  header("Location: /php_tasks10/task_10.php");
    
   
 

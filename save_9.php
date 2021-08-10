@@ -8,6 +8,6 @@
   $statement = $pdo->prepare($sql);  
   $statement->execute(['text' => $text]);
    
-  header("Location: /tasks/task_9.php");
+  header("Location: /php_tasks10/task_9.php");
   
 ?>
